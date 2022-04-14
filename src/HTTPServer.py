@@ -18,8 +18,8 @@ class myHandler(BaseHTTPRequestHandler):
         decoded__post_body = self.rfile.read(content_len).decode('utf-8')
         loadedJson = json.loads(decoded__post_body)
 
-        logs = loadedJson['log']
-        session = loadedJson['session']
+        logs = loadedJson['_log']
+        session = loadedJson['_session']
 
         with open(f'./{session}.txt', 'a') as myfile:
             myfile.write(logs + "\n")
