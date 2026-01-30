@@ -1,10 +1,5 @@
----
-layout: post
-title: A Battle to Debug
-date: 2022-04-12 20:32:20 +0300
-img: a_battle_to_debug.jpg 
-tags: [Python3, Cloudflare, Unity, C#]
----
+> Note: This repository is primarily for personal documentation.
+> The README serves as a detailed record of design decisions, experiments, and implementation choices made during development.
 
 # **Intro**
 On a Monday afternoon, we received a report from a player. He reported a problem when purchasing a DLC. After that, we started a saga to solve the bug. First, the tester would have to be able to reproduce on our device. Following the player's steps, the bug was quickly reproduced. But and now? Few clues as to what could be happening. There was no way for us to see the logs (the device didn't allow this to be possible in a simple way), which was essential to find a solution!
